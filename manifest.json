@@ -1,0 +1,25 @@
+{
+  "name": "Close your tabs!",
+  "description": "Listen you just...you need help.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+      "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "16": "/images/banana-wolf.jpeg",
+        "32": "/images/banana-wolf.jpeg",
+        "48": "/images/bananavulf.jpeg",
+        "128": "/images/bananavulf.jpeg"
+      }
+  },
+  "icons": {
+    "16": "/images/banana-wolf.jpeg",
+    "32": "/images/banana-wolf.jpeg",
+    "48": "/images/bananavulf.jpeg",
+    "128": "/images/bananavulf.jpeg"
+  }
+}
