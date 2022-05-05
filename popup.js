@@ -1,5 +1,6 @@
 deleteTab.addEventListener("click", async () => {
-  let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-
-  chrome.tabs.remove(tab.id);
+  let tabs = await chrome.tabs.query({});
+  const doomedTab = tabs[Math.floor(Math.random() * tabs.length)];
+  console.log(doomedTab.id);
+  //chrome.tabs.remove(tab.id);
 });
