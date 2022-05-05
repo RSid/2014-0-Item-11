@@ -10,16 +10,16 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-        "16": "/images/banana-wolf.jpeg",
-        "32": "/images/banana-wolf.jpeg",
-        "48": "/images/bananavulf.jpeg",
-        "128": "/images/bananavulf.jpeg"
+        "16": "/images/bananawolf.png",
+        "32": "/images/bananawolf.png",
+        "48": "/images/bananawolf.png",
+        "128": "/images/bananawolf.png"
       }
   },
   "icons": {
-    "16": "/images/banana-wolf.jpeg",
-    "32": "/images/banana-wolf.jpeg",
-    "48": "/images/bananavulf.jpeg",
-    "128": "/images/bananavulf.jpeg"
+    "16": "/images/bananawolf.png",
+    "32": "/images/bananawolf.png",
+    "48": "/images/bananawolf.png",
+    "128": "/images/bananawolf.png"
   }
 }
